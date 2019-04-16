@@ -1,0 +1,14 @@
+[package]
+name = "show-links"
+version = "0.1.0"
+authors = ["Emīls Piņķis <emils@mullvad.net>"]
+edition = "2018"
+
+[dependencies]
+rtnetlink = { git = "https://github.com/little-dude/netlink", rev = "f752af0ccf313b2834fd90794028c3f3e86b2ba9" }
+netlink-proto = { git = "https://github.com/little-dude/netlink", rev = "f752af0ccf313b2834fd90794028c3f3e86b2ba9" }
+netlink-packet = { git = "https://github.com/little-dude/netlink", rev = "f752af0ccf313b2834fd90794028c3f3e86b2ba9" }
+netlink-sys = { git = "https://github.com/little-dude/netlink", rev = "f752af0ccf313b2834fd90794028c3f3e86b2ba9" }
+tokio-core = "0.1"
+futures = "0.1"
+
